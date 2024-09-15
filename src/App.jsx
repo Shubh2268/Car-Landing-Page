@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Backround from './components/background/Background'
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
 
@@ -18,12 +19,13 @@ function App() {
     },
   ];
 
-  const [heroCount, setHeroCount] = useState(2);
+  const [heroCount, setHeroCount] = useState(0);
   const [playstatus, setPlaystatus] = useState(false);
 
   return (
     <>
      <Backround playstatus={playstatus} heroCount={heroCount} />
+     <Navbar />
     </>
   )
 }
