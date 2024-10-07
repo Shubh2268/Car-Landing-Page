@@ -1,8 +1,7 @@
-import { useState } from "react";
+import { useState, useEffect } from 'react';
 import Backround from './components/background/Background'
-import Navbar from "./components/navbar/Navbar";
-import Hero from "./components/hero/Hero";
-import { useEffect } from "react";
+import Navbar from './components/navbar/Navbar';
+import Hero from './components/hero/Hero';
 
 function App() {
 
